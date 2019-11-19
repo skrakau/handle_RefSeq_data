@@ -5,7 +5,7 @@ Extract nucelotide sequence IDs from given RefSeq catalogue, and write sequence 
 
     $ python get_nuc_seqIds_taxIds.py RefSeq-release70.catalog.gz
 
-Download_seq_metadata.py: download metadata (seqId, seqLength, taxId, assemblyId) from Entrez for each sequence from given seqId_taxId file (use batches, distributed on different machines):
+Download metadata (seqId, seqLength, taxId, assemblyId) from Entrez for each sequence from given seqId_taxId file (use batches, distributed on different machines):
 
     $ python download_seq_metadata.py seqId_taxId.txt.gz seq_metadata.txt.gz 28 name@mail.com NCBI_API_key
 
