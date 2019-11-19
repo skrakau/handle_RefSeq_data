@@ -1,4 +1,4 @@
-# create_RefSeq-release_top3
+# handle RefSeq data
 Get sequence metadata for RefSeq release catalogue using Entrez (also for suppressed or replaced sequences), filter for top 3 assemblies for each taxa and download Fastas 
 
 
